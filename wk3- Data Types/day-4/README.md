@@ -2,6 +2,24 @@
 
 Introduction to Foundry: `forge init`-style layout, `forge build`, `forge test`, and forge scripts.
 
+## Setup
+
+From the repo root (once):
+
+```shell
+git submodule update --init --recursive
+```
+
+Then:
+
+```shell
+cd "wk3- Data Types/day-4"
+forge build
+forge test
+```
+
+`lib/forge-std` is a git submodule (not vendored source). After clone, always init submodules before building.
+
 ## Commands
 
 ```shell
